@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "mineral-aegis-312803",
+  "private_key_id": "927dac2949cffbf9eb79ff39539d687b060f4004",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDbN0YxE9/CBDs+\nLleijxAj8spbn2yav+UNA2BUsL8aNmzkVnlfYHWRY2sZMuX+yn7KZMdn801tF9R2\nhN86qA+2x7Cxr4fQtwMbf5AFT0u/QmB/2CI6lD1aNxTCOXncatZBD/80uB5rFZpP\ndd+Xvx9XtQPcWowQZ+1NmvXTsGibcCvVU2sSctt/qzkWLMu/gabetF/QOO+vDAY7\nVDzo5aOeaIGLa0Sqn2WzL4JPnzEfhEvIgs9FJNokUfpYITUdps4jvqBLi7ZuBKP7\nWw//0bhFy7wej2DY7NGYkFUBtl8QD9o2nuZyxxWeLIkvHBrj4jJ/MXAOl1rH010u\nqzFGXlX7AgMBAAECggEAG3k2cVEp0mGAYT8imYtvfOnhRZFZ5Z0WIkbhjEuob6sR\ng5540KTAp0t78SkJXSDYuhneSd9avUjmxkHJzkqgyYoGUYaLsXM2TvxyOtAg0KQL\nfwpB4/CPLd7IWb0lUiQLnRTZqaxHl6kZ8Up3DsgTsATOKpAojKfRvE+m7nRl79Do\nM26LU4zgwLZ6WXg04QwjVtxvKk/sKMpFUyFyhUiTaYWDwDB/ChRRHwjPi94fAoT2\nV7zwKrwusaJjGRL4IWzHaG28G3wTaQuF6GkKOvpMbpGhzcYzoCJD3v74gZKKAA7Y\nDEg0d5hv3j1u/j8TcziGXvPmQKPa5TT/QS0D1GSnZQKBgQDviLGvsYNh0XLM2wnq\nwYYU/KnEe3yEfvocy7oluQ9JhV4HDn1nalI0Z+GRFKzusd/a50lqgpQUouhtPV8x\nd233F6WCHPWLWkCuM3uL1rip9r5bW+vT3dErVzgwuNAObQiARBt/zkRUNKnB+V5o\neetn9hbOiZUmIql2fj6MSmyGbwKBgQDqSQYx0JrQI2fX3zwtNL6jug9H+sQqNgZ4\nNHelHqEkSGs7Tb+WgzlhAHDJLG6r0bVukSzt5QrQE8aQwJ4KLq3hvz+cCEZxe37M\noA6vV/FZtXQQyR8mvR4shQvrerh62eO9Bu+n6kCqG8CbzXc0NGL9G049NBe16dCi\n+IoJMVoPNQKBgFGQTlDxNTedxmWTQHE7rJiA4J4THndPdYNQq/YkadwzGa11daY9\nQfiuVtS8IZa14u/7SbiG9j2Aq3xnJX8Gl99HoggILGRjOxsWVL9tQjw91NvvFQJz\nycHkVTHh/Jas8fQbPPHsHsA9noB6lXcl7M7dsS5rEuqFawb6PfovbXzpAoGAZXjl\nXvQL6XQ8SMpeRPIgU8eFUNay2dl2ad/HplOi1ZUsJI5jGaySUIohT3CYKoD0xQPJ\n4uueCEtYaF+U07IuC6WKxmjrIcGsRLJaSeWcGg+2SoLhpCSrCftCE2aeuk7fDYMQ\nj7is80B75r9SDuFVsmx+MZH7ZwXzIHLnTl36tLUCgYBCf6iM6QkytOjCgHgIdTRn\n0npK7Leb4IgiILNSLawPEzA9HpVoB4FisV+yKkDhx3a+abiwXnarK1RmI9bz9Jp5\nOejcw1OCLv0D9B/ikDTqH1D6FWbvwf1jfkk8EiWxOotBwg5USpcqFAAhQaHDV43e\nd4p84rLI0DVRXt9NQy65qg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "ipl-954@mineral-aegis-312803.iam.gserviceaccount.com",
+  "client_id": "111724903601045031099",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/ipl-954%40mineral-aegis-312803.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
