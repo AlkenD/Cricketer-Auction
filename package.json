@@ -37,6 +37,7 @@
 		"app": "link:",
 		"google-spreadsheet-to-json": "^1.0.0",
 		"spreadsheet-to-json": "^2.0.0",
+		"svelte-fullscreen": "^2.0.0",
 		"svelte-image-loader": "^1.0.5"
 	}
 }

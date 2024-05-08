@@ -14,6 +14,9 @@ dependencies:
   spreadsheet-to-json:
     specifier: ^2.0.0
     version: 2.0.0
+  svelte-fullscreen:
+    specifier: ^2.0.0
+    version: 2.0.0
   svelte-image-loader:
     specifier: ^1.0.5
     version: 1.0.5
@@ -2592,6 +2595,11 @@ packages:
     resolution: {integrity: sha512-0s+oAmw9zLl1V1cS9BtZN7JAd0cW5e0QH4W3LWEK6a4LaLEA2OTpGYWDY+6XasBLtz6wkm3u1xRw95mRuJ59WA==}
     dev: false
 
+  /screenfull@5.2.0:
+    resolution: {integrity: sha512-9BakfsO2aUQN2K9Fdbj87RJIEZ82Q9IGim7FqM5OsebfoFC6ZHXgDq/KvniuLTPdeM8wY2o6Dj3WQ7KeQCj3cA==}
+    engines: {node: '>=0.10.0'}
+    dev: false
+
   /semver@7.6.1:
     resolution: {integrity: sha512-f/vbBsu+fOiYt+lmwZV0rVwJScl46HppnOA1ZvIuBWKOTlllpyJ3bfVax76/OrhCH38dyxoDIA8K7uB963IYgA==}
     engines: {node: '>=10'}
@@ -2787,6 +2795,12 @@ packages:
       postcss-scss: 4.0.9(postcss@8.4.38)
       svelte: 4.2.16
     dev: true
+
+  /svelte-fullscreen@2.0.0:
+    resolution: {integrity: sha512-Sg03gZAyYtW7gqTA9WoFXY2m4CkFmRFu/+n7bmGJnYt/qxtO0N2tdQ61lZwbgN2AAMh2zF/185CTBI9vv3zvKQ==}
+    dependencies:
+      screenfull: 5.2.0
+    dev: false
 
   /svelte-hmr@0.16.0(svelte@4.2.16):
     resolution: {integrity: sha512-Gyc7cOS3VJzLlfj7wKS0ZnzDVdv3Pn2IuVeJPk9m2skfhcu5bq3wtIZyQGggr7/Iim5rH5cncyQft/kRLupcnA==}
