@@ -59,34 +59,34 @@
 						<span class="text-2xl">{currentSet[currentPlayer].country}</span>
 					</div>
 				</div>
-				<div class="player-overview-detail space-y-4">
-					<h1 class="text-2xl font-bold">Player Overview</h1>
-					<div class="grid grid-cols-2 text-center">
+				<div class="player-overview-detail space-y-4 text-white">
+					<h1 class="text-4xl font-bold">Player Overview</h1>
+					<div class="grid grid-cols-2 text-center font-bold">
 						<div
-							class="p-4 border-l border-t border-r border-black flex flex-col justify-center items-center backdrop-blur-2xl"
+							class="p-4 border-l border-t border-r border-white flex flex-col justify-center items-center backdrop-blur-2xl"
 						>
-							<p class="text-xl font-bold">{currentSet[currentPlayer].type}</p>
-							<span>Specialization</span>
+							<p class="text-2xl font-bold">{currentSet[currentPlayer].type}</p>
+							<span class="text-xl">Specialization</span>
 						</div>
 						<div
-							class="p-4 border-t border-r bg-white text-black border-black flex flex-col justify-center items-center"
+							class="p-4 border-t border-r bg-white text-black border-white flex flex-col justify-center items-center"
 						>
-							<p class="text-xl font-bold">
+							<p class="text-2xl font-bold">
 								{currentSet[currentPlayer].basevalue} Cr.
 							</p>
-							<span>Base Price</span>
+							<span class="text-xl">Base Price</span>
 						</div>
 						<div
-							class="p-4 border-t border-l border-r border-b border-black flex flex-col justify-center items-center"
+							class="p-4 border-t border-l border-r border-b border-white flex flex-col justify-center items-center"
 						>
-							<p class="text-xl font-bold">{currentSet[currentPlayer].ratingHidden}</p>
-							<span>Rating</span>
+							<p class="text-2xl font-bold">{currentSet[currentPlayer].ratingHidden}</p>
+							<span class="text-xl">Rating</span>
 						</div>
 						<div
-							class="p-4 border-r border-b border-t border-black flex flex-col justify-center items-center"
+							class="p-4 border-r border-b border-t border-white flex flex-col justify-center items-center"
 						>
-							<p class="text-xl font-bold">{currentSet[currentPlayer].fanstarsHidden}</p>
-							<span>Fan Rating</span>
+							<p class="text-2xl font-bold">{currentSet[currentPlayer].fanstarsHidden}</p>
+							<span class="text-xl">Fan Rating</span>
 						</div>
 					</div>
 				</div>
@@ -103,33 +103,33 @@
 					</div>
 				</div>
 				<div class="player-overview-detail space-y-4">
-					<h1 class="text-2xl font-bold">Player Overview</h1>
-					<div class="grid grid-cols-2 text-center">
+					<h1 class="text-4xl font-bold">Player Overview</h1>
+					<div class="grid grid-cols-2 text-center font-bold">
 						<div
-							class="p-4 border-l border-t border-r border-black flex flex-col justify-center items-center"
+							class="p-4 border-l border-t border-r border-white flex flex-col justify-center items-center backdrop-blur-2xl"
 						>
-							<p class="text-xl font-bold">{data.ipl[currentPlayer].type}</p>
-							<span>Specialization</span>
+							<p class="text-2xl font-bold">{data.ipl[currentPlayer].type}</p>
+							<span class="text-xl">Specialization</span>
 						</div>
 						<div
-							class="p-4 border-t border-r bg-white text-black border-black flex flex-col justify-center items-center"
+							class="p-4 border-t border-r bg-white text-black border-white flex flex-col justify-center items-center"
 						>
-							<p class="text-xl font-bold">
+							<p class="text-2xl font-bold">
 								{data.ipl[currentPlayer].basevalue} Cr.
 							</p>
-							<span>Base Price</span>
+							<span class="text-xl">Base Price</span>
 						</div>
 						<div
-							class="p-4 border-t border-l border-r border-b border-black flex flex-col justify-center items-center"
+							class="p-4 border-t border-l border-r border-b border-white flex flex-col justify-center items-center"
 						>
-							<p class="text-xl font-bold">{data.ipl[currentPlayer].ratingHidden}</p>
-							<span>Rating</span>
+							<p class="text-2xl font-bold">{data.ipl[currentPlayer].ratingHidden}</p>
+							<span class="text-xl">Rating</span>
 						</div>
 						<div
-							class="p-4 border-r border-b border-t border-black flex flex-col justify-center items-center"
+							class="p-4 border-r border-b border-t border-white flex flex-col justify-center items-center"
 						>
-							<p class="text-xl font-bold">{data.ipl[currentPlayer].fanstarsHidden}</p>
-							<span>Fan Rating</span>
+							<p class="text-2xl font-bold">{data.ipl[currentPlayer].fanstarsHidden}</p>
+							<span class="text-xl">Fan Rating</span>
 						</div>
 					</div>
 				</div>
