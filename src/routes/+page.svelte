@@ -28,11 +28,11 @@
 	>
 		<div class="absolute top-2 left-2 space-x-2 flex z-50">
 			{#if currentSet.length !== 0}
-				<div class="px-4 py-2 font-bold bg-white rounded-full">
+				<div class="px-4 py-2 font-bold bg-white rounded-full text-xl">
 					Player - {currentPlayer + 1} / {currentSet.length}
 				</div>
 			{:else}
-				<div class="px-4 py-2 font-bold bg-white rounded-full">
+				<div class="px-4 py-2 font-bold bg-white rounded-full text-xl">
 					Player - {currentPlayer + 1} / {data.ipl.length}
 				</div>
 			{/if}
@@ -40,7 +40,7 @@
 			<select
 				bind:value={currentSetNumber}
 				on:change={() => (currentPlayer = 0)}
-				class="px-4 py-2 font-bold bg-white rounded-full"
+				class="px-4 py-2 font-bold bg-white rounded-full text-xl"
 			>
 				<option value="0">All Players</option>
 				{#each [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16] as item}
@@ -55,7 +55,7 @@
 					<div
 						class="plyr-name-nationality absolute bottom-0 left-0 right-0 w-full h-fit z-30 text-center backdrop-blur-2xl p-6"
 					>
-						<h1 class="text-4xl font-bold text-white pb-8">{currentSet[currentPlayer].name}</h1>
+						<h1 class="text-6xl font-bold text-white pb-8">{currentSet[currentPlayer].name}</h1>
 						<span class="text-2xl">{currentSet[currentPlayer].country}</span>
 					</div>
 				</div>
@@ -63,30 +63,30 @@
 					<h1 class="text-4xl font-bold">Player Overview</h1>
 					<div class="grid grid-cols-2 text-center font-bold">
 						<div
-							class="p-4 border-l border-t border-r border-white flex flex-col justify-center items-center backdrop-blur-2xl"
+							class="p-6 border-l border-t border-r border-white flex flex-col justify-center items-center backdrop-blur-2xl"
 						>
-							<p class="text-2xl font-bold">{currentSet[currentPlayer].type}</p>
-							<span class="text-xl">Specialization</span>
+							<p class="text-4xl font-bold">{currentSet[currentPlayer].type}</p>
+							<span class="text-2xl">Specialization</span>
 						</div>
 						<div
-							class="p-4 border-t border-r bg-white text-black border-white flex flex-col justify-center items-center"
+							class="p-6 border-t border-r bg-white text-black border-white flex flex-col justify-center items-center"
 						>
-							<p class="text-2xl font-bold">
+							<p class="text-4xl font-bold">
 								{currentSet[currentPlayer].basevalue} Cr.
 							</p>
-							<span class="text-xl">Base Price</span>
+							<span class="text-2xl">Base Price</span>
 						</div>
 						<div
-							class="p-4 border-t border-l border-r border-b border-white flex flex-col justify-center items-center"
+							class="p-6 border-t border-l border-r border-b border-white flex flex-col justify-center items-center"
 						>
-							<p class="text-2xl font-bold">{currentSet[currentPlayer].ratingHidden}</p>
-							<span class="text-xl">Rating</span>
+							<p class="text-4xl font-bold">{currentSet[currentPlayer].ratingHidden}</p>
+							<span class="text-2xl">Rating</span>
 						</div>
 						<div
-							class="p-4 border-r border-b border-t border-white flex flex-col justify-center items-center"
+							class="p-6 border-r border-b border-t border-white flex flex-col justify-center items-center"
 						>
-							<p class="text-2xl font-bold">{currentSet[currentPlayer].fanstarsHidden}</p>
-							<span class="text-xl">Fan Rating</span>
+							<p class="text-4xl font-bold">{currentSet[currentPlayer].fanstarsHidden}</p>
+							<span class="text-2xl">Fan Rating</span>
 						</div>
 					</div>
 				</div>
@@ -102,34 +102,34 @@
 						<span class="text-2xl">{data.ipl[currentPlayer].country}</span>
 					</div>
 				</div>
-				<div class="player-overview-detail space-y-4">
-					<h1 class="text-4xl font-bold">Player Overview</h1>
+				<div class="player-overview-detail space-y-4 text-white">
+					<h1 class="text-6xl font-bold">Player Overview</h1>
 					<div class="grid grid-cols-2 text-center font-bold">
 						<div
-							class="p-4 border-l border-t border-r border-white flex flex-col justify-center items-center backdrop-blur-2xl"
+							class="p-6 border-l border-t border-r border-white flex flex-col justify-center items-center backdrop-blur-2xl"
 						>
-							<p class="text-2xl font-bold">{data.ipl[currentPlayer].type}</p>
-							<span class="text-xl">Specialization</span>
+							<p class="text-4xl font-bold">{data.ipl[currentPlayer].type}</p>
+							<span class="text-2xl">Specialization</span>
 						</div>
 						<div
-							class="p-4 border-t border-r bg-white text-black border-white flex flex-col justify-center items-center"
+							class="p-6 border-t border-r bg-white text-black border-white flex flex-col justify-center items-center"
 						>
-							<p class="text-2xl font-bold">
+							<p class="text-4xl font-bold">
 								{data.ipl[currentPlayer].basevalue} Cr.
 							</p>
-							<span class="text-xl">Base Price</span>
+							<span class="text-2xl">Base Price</span>
 						</div>
 						<div
-							class="p-4 border-t border-l border-r border-b border-white flex flex-col justify-center items-center"
+							class="p-6 border-t border-l border-r border-b border-white flex flex-col justify-center items-center"
 						>
-							<p class="text-2xl font-bold">{data.ipl[currentPlayer].ratingHidden}</p>
-							<span class="text-xl">Rating</span>
+							<p class="text-4xl font-bold">{data.ipl[currentPlayer].ratingHidden}</p>
+							<span class="text-2xl">Rating</span>
 						</div>
 						<div
-							class="p-4 border-r border-b border-t border-white flex flex-col justify-center items-center"
+							class="p-6 border-r border-b border-t border-white flex flex-col justify-center items-center"
 						>
-							<p class="text-2xl font-bold">{data.ipl[currentPlayer].fanstarsHidden}</p>
-							<span class="text-xl">Fan Rating</span>
+							<p class="text-4xl font-bold">{data.ipl[currentPlayer].fanstarsHidden}</p>
+							<span class="text-2xl">Fan Rating</span>
 						</div>
 					</div>
 				</div>
@@ -217,6 +217,8 @@
 		border: 1px solid #fff;
 		border-radius: 4px;
 		padding: 10px;
+		padding-left: 20px;
+		padding-right: 20px;
 		font-style: italic;
 		color: #fff;
 	}
@@ -232,7 +234,7 @@
 		height: 493px;
 	}
 	.membr-details .membr-details-img {
-		width: 550px;
+		width: 700px;
 		height: auto;
 	}
 	.membr-details-img::after {
