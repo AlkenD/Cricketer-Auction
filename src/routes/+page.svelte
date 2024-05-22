@@ -26,6 +26,10 @@
 	<div
 		class="p-20 h-screen flex justify-center items-center bg-gradient-to-tr from-indigo-600 to-yellow-600 font-serif relative"
 	>
+		<div class="w-fit h-fit absolute top-2 right-2 flex space-x-4">
+			<img class="h-16 w-16 object-contain" src="/logo.png" alt="" />
+			<a href="/start"> <img class="h-16 w-16 object-contain" src="/sfc-logo.png" alt="" /> </a>
+		</div>
 		<div class="absolute top-2 left-2 space-x-2 flex z-50">
 			{#if currentSet.length !== 0}
 				<div class="px-4 py-2 font-bold bg-white rounded-full text-xl">
