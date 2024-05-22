@@ -79,13 +79,13 @@
 						<div
 							class="p-6 border-t border-l border-r border-b border-white flex flex-col justify-center items-center"
 						>
-							<p class="text-4xl font-bold">{currentSet[currentPlayer].ratingHidden}</p>
+							<p class="text-4xl font-bold">{currentSet[currentPlayer].rating}</p>
 							<span class="text-2xl">Rating</span>
 						</div>
 						<div
 							class="p-6 border-r border-b border-t border-white flex flex-col justify-center items-center"
 						>
-							<p class="text-4xl font-bold">{currentSet[currentPlayer].fanstarsHidden}</p>
+							<p class="text-4xl font-bold">{currentSet[currentPlayer].fanstars}</p>
 							<span class="text-2xl">Fan Rating</span>
 						</div>
 					</div>
